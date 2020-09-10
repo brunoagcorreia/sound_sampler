@@ -1,0 +1,1 @@
+save your samples in this folder, and edit the names accordingly so that they match the index.html (by default, files are named 1.mp3, 2.mp3 etc, but you might as well use other web friendly formats such as .wav)

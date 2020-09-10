@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Sound Sampler - a JavaScript Web App</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+  </head>
+  <body>
+    <!-- samples are triggered either by typing on the keyboards (keys 1 to 6) or clicking on color icons. -->
+    <!-- if you want to change the keys, check https://keycode.info/ for other JS event keycodes. -->
+    <!-- edit the sample names to whatever you want -->
+    <div class="grid-container">
+      <div class="key item1" data-key="49"><!-- Sample 1 --></div>
+      <div class="key item2" data-key="50"><!-- Sample 2 --></div>
+      <div class="key item3" data-key="51"><!-- Sample 3 --></div>
+      <div class="key item4" data-key="52"><!-- Sample 4 --></div>
+      <div class="key item5" data-key="53"><!-- Sample 5 --></div>
+      <div class="key item6" data-key="54"><!-- Sample 6 --></div>
+      <div class="key item7" data-key="55"><!-- Sample 7 --></div>
+      <div class="key item8" data-key="56"><!-- Sample 8 --></div>
+    </div>
+
+    <!-- here you can add your sample sounds, linking src to online or local files -->
+    <audio data-key="49" src="samples/1.mp3"></audio>
+    <audio data-key="50" src="samples/2.mp3"></audio>
+    <audio data-key="51" src="samples/3.mp3"></audio>
+    <audio data-key="52" src="samples/4.mp3"></audio>
+    <audio data-key="53" src="samples/5.mp3"></audio>
+    <audio data-key="54" src="samples/6.mp3"></audio>
+    <audio data-key="55" src="samples/7.mp3"></audio>
+    <audio data-key="56" src="samples/8.mp3"></audio>
+
+    <script  src="./script.js"></script>
+
+  </body>
+</html>
