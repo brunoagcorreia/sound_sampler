@@ -8,3 +8,6 @@ Sound Sampler is the tool you were looking for. It's an easy to configure and fu
 Add your own samples to the "samples" folder and edit the links in the HTML <audio>tags. You can also link to sample files in online repositories. 
 
 To change the triggers in your keyboard, check https://keycode.info/ for each keycode.
+
+You can play the working sampler at http://correia.space/sampler/
+(samples from with "Harder, Better, Faster, Stronger" by Daft Punk)
